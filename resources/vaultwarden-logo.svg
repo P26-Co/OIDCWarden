@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="1366"
+   height="280"
+   viewBox="0 0 361.42085 74.083334"
+   version="1.1"
+   id="svg5"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs2" />
+  <g
+     id="layer1">
+    <g
+       id="g283"
+       transform="matrix(2.0352716,0,0,2.0269427,0,5)">
+      <path
+         fill-rule="evenodd"
+         fill-opacity="0"
+         fill="#ffffff"
+         d="M 0,0 H 175 V 31.1 H 0 Z"
+         id="path247" />
+      <path
+         fill-rule="evenodd"
+         opacity="0"
+         fill="#ffffff"
+         d="M 0.489,0.092 H 32.466 V 32.068 H 0.489 Z"
+         id="path249" />
+      <path
+         fill-rule="evenodd"
+         fill="#482773"
+         d="M 1.462,6.408 16.457,0.189 31.492,6.408 31.39,13.218 27.683,26.461 16.457,31.964 5.311,26.461 1.563,13.169 Z"
+         id="path251" />
+      <path
+         fill-rule="evenodd"
+         fill="#ffffff"
+         d="M 27.925,13.33 24.78,23.451 18.036,26.419 V 5.16 l 3.967,1.464 v 13.901 l 2.484,-8.414 z"
+         id="path253" />
+      <path
+         fill-rule="evenodd"
+         fill="#b8abc9"
+         d="m 24.612,7.618 3.451,1.452 -0.141,4.278 -3.435,-1.203 z"
+         id="path255" />
+      <path
+         fill-rule="evenodd"
+         fill="#b8abc9"
+         d="m 5.155,9.08 10.412,5.145 -0.004,7.93 -0.04,4.304 -4.011,-1.829 -0.088,-8.251 -6.269,-2.941 z"
+         id="path257" />
+      <path
+         fill-rule="evenodd"
+         fill="#ffffff"
+         d="M 5.154,9.088 15.575,5.164 V 9.509 L 5.154,13.432 Z"
+         id="path259" />
+      <path
+         fill-rule="evenodd"
+         fill="#ffffff"
+         d="m 6.908,22.564 8.643,3.891 V 22.108 L 5.995,18.212 Z"
+         id="path261" />
+      <text
+         kerning="auto"
+         font-family="'Myriad Pro'"
+         fill="#000000"
+         font-size="26px"
+         x="39"
+         y="25.687"
+         id="text265"><tspan
+           font-size="26px"
+           font-family="Montserrat"
+           font-weight="bold"
+           fill="#482773"
+           id="tspan263">SaviVault</tspan></text>
+    </g>
+  </g>
+</svg>

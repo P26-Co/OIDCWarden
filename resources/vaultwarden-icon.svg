@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="256"
+   height="256"
+   viewBox="0 0 67.733336 67.733334"
+   version="1.1"
+   id="svg5"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs2" />
+  <g
+     id="layer1">
+    <g
+       id="g66"
+       transform="matrix(0.61939134,0,0,0.61939134,0.52916663,0.396875)">
+      <path
+         fill-rule="evenodd"
+         opacity="0"
+         fill="#ffffff"
+         d="M 0,0 H 107.1 V 107.1 H 0 Z"
+         id="path39" />
+      <path
+         fill-rule="evenodd"
+         fill="#482773"
+         d="m 3.285,21.333 50.644,-21.005 50.78,21.005 -0.343,23 L 91.845,89.061 53.929,107.646 16.284,89.061 3.628,44.169 Z"
+         id="path41" />
+      <path
+         fill-rule="evenodd"
+         fill="#ffffff"
+         d="M 92.663,44.713 82.04,78.896 59.263,88.918 V 17.119 l 13.398,4.942 v 46.951 l 8.39,-28.417 z"
+         id="path43" />
+      <path
+         fill-rule="evenodd"
+         fill="#b8abc9"
+         d="m 81.475,25.418 11.654,4.904 -0.475,14.449 -11.601,-4.06 z"
+         id="path45" />
+      <path
+         fill-rule="evenodd"
+         fill="#b8abc9"
+         d="M 15.757,30.356 50.926,47.733 50.912,74.517 50.777,89.055 37.229,82.878 36.931,55.009 15.757,45.078 Z"
+         id="path47" />
+      <path
+         fill-rule="evenodd"
+         fill="#ffffff"
+         d="M 15.756,30.383 50.95,17.133 V 31.806 L 15.756,45.057 Z"
+         id="path49" />
+      <path
+         fill-rule="evenodd"
+         fill="#ffffff"
+         d="M 21.68,75.899 50.871,89.041 V 74.36 L 18.596,61.2 Z"
+         id="path51" />
+    </g>
+  </g>
+</svg>
