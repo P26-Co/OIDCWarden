@@ -224,7 +224,7 @@ pub async fn authorize_url(state: String, client_id: &str, raw_redirect_uri: &st
 
     let redirect_uri = match client_id {
         "web" | "browser" => format!("{}/sso-connector.html", CONFIG.domain()),
-        "desktop" | "mobile" => "bitwarden://sso-callback".to_string(),
+        "desktop" | "mobile" => "savivault://sso-callback".to_string(),
         "cli" => {
             let port_regex = Regex::new(r"^http://localhost:([0-9]{4})$").unwrap();
             match port_regex.captures(raw_redirect_uri).and_then(|captures| captures.get(1).map(|c| c.as_str())) {

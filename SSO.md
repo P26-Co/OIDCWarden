@@ -294,7 +294,7 @@ If you have any doubt you can check `mailto` to see how it's configured.
 The redirection will still not work since it appears that the association to an application can only be done on a link/click. You can trigger it with a dummy page such as:
 
 ```html
-data:text/html,<a href="bitwarden:///dummy">Click me to register Bitwarden</a>
+data:text/html,<a href="savivault:///dummy">Click me to register Bitwarden</a>
 ```
 
 From now on the redirection should now work.
