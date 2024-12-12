@@ -22,8 +22,6 @@ ARG TARGETARCH
 ARG TARGETVARIANT
 ARG TARGETPLATFORM
 
-ARG OIDC_WEB_RELEASE="https://s3.youngerslife.com/savi-warden"
-
 SHELL ["/bin/bash", "-o", "pipefail", "-c"]
 
 # Build time options to avoid dpkg warnings and help with reproducible builds.
@@ -134,8 +132,8 @@ RUN source /env-cargo && \
     fi
 
 # Get all version of the front-end
-RUN curl -L "${OIDC_WEB_RELEASE}/oidc_button_web_vault.tar.gz" | tar -xz ; mv web-vault /web-vault_button
-RUN curl -L "${OIDC_WEB_RELEASE}/oidc_override_web_vault.tar.gz" | tar -xz ; mv web-vault /web-vault_override
+#RUN tar -xzf oidc_button_web_vault.tar.gz && mv web-vault_button /web-vault_button
+#RUN tar -xzf oidc_override_web_vault.tar.gz && mv web-vault_button /web-vault_override
 
 ######################## RUNTIME IMAGE  ########################
 # Create a new stage with a minimal image
@@ -181,8 +179,8 @@ WORKDIR /
 
 COPY docker/healthcheck.sh docker/start.sh /
 
-COPY --from=build /web-vault_button ./web-vault_button
-COPY --from=build /web-vault_override ./web-vault_override
+COPY /web-vault_button ./web-vault_button
+COPY /web-vault_override ./web-vault_override
 COPY --from=build /app/target/final/oidcwarden .
 
 HEALTHCHECK --interval=60s --timeout=10s CMD ["/healthcheck.sh"]

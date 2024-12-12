@@ -13,3 +13,6 @@
 !Cargo.toml
 !rustfmt.toml
 !rust-toolchain.toml
+
+!web-vault_button
+!web-vault_override

@@ -57,7 +57,7 @@ impl ProtectedActionData {
 #[post("/accounts/request-otp")]
 async fn request_otp(headers: Headers, mut conn: DbConn) -> EmptyResult {
     if !CONFIG.mail_enabled() {
-        err!("Email is disabled for this server. Either enable email or login using your master password instead of login via device.");
+        err!("Email is disabled for this server. Either enable email or login using your master pin instead of login via device.");
     }
 
     let user = headers.user;
@@ -91,7 +91,7 @@ struct ProtectedActionVerify {
 #[post("/accounts/verify-otp", data = "<data>")]
 async fn verify_otp(data: Json<ProtectedActionVerify>, headers: Headers, mut conn: DbConn) -> EmptyResult {
     if !CONFIG.mail_enabled() {
-        err!("Email is disabled for this server. Either enable email or login using your master password instead of login via device.");
+        err!("Email is disabled for this server. Either enable email or login using your master pin instead of login via device.");
     }
 
     let user = headers.user;

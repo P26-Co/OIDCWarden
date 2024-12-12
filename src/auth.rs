@@ -1086,7 +1086,7 @@ pub async fn refresh_tokens(refresh_token: &str, conn: &mut DbConn) -> ApiResult
             AuthTokens::new(&device, &user, refresh_claims.sub)
         }
         AuthMethod::Sso if CONFIG.sso_enabled() => sso::exchange_refresh_token(&device, &user, &refresh_claims).await?,
-        AuthMethod::Sso => err!("SSO is now disabled, Login again using email and master password"),
+        AuthMethod::Sso => err!("SSO is now disabled, Login again using email and master pin"),
         AuthMethod::Password if CONFIG.sso_enabled() && CONFIG.sso_only() => err!("SSO is now required, Login again"),
         AuthMethod::Password => AuthTokens::new(&device, &user, refresh_claims.sub),
         _ => err!("Invalid auth method, cannot refresh token"),
